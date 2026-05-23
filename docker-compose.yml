@@ -1,0 +1,16 @@
+version: '3.9'
+
+services:
+
+  matchmaking-service:
+    build:
+      context: ./MatchmakingService/MatchmakingService
+    container_name: matchmaking-service
+    ports:
+      - "5000:8080"
+
+  redis:
+    image: redis:7
+    container_name: matchmaking-redis
+    ports:
+      - "6379:6379"
