@@ -16,6 +16,7 @@ builder.Services.AddSingleton<IConnectionMultiplexer>(
 
 builder.Services.AddSingleton<IMatchmakingQueue, RedisMatchmakingQueue>();
 builder.Services.AddHostedService<MatchmakingWorker>();
+builder.Services.AddSingleton<RabbitMqPublisher>();
 
 var app = builder.Build();
 

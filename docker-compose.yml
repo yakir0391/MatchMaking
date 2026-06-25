@@ -6,6 +6,10 @@ services:
     build:
       context: ./MatchmakingService/MatchmakingService
     container_name: matchmaking-service
+    environment:
+      RabbitMQ__Host: "rabbitmq"
+      RabbitMQ__User: "guest"
+      RabbitMQ__Password: "guest"
     ports:
       - "5000:8080"
 
@@ -14,3 +18,10 @@ services:
     container_name: matchmaking-redis
     ports:
       - "6379:6379"
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: matchmaking-rabbitmq
+    ports:
+    - "5672:5672"
+    - "15672:15672"

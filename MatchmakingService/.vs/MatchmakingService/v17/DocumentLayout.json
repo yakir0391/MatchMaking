@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Projects\\MatchMaking\\MatchmakingService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|c:\\projects\\matchmaking\\matchmakingservice\\matchmakingservice\\services\\rabbitmqpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|solutionrelative:matchmakingservice\\services\\rabbitmqpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|c:\\projects\\matchmaking\\matchmakingservice\\matchmakingservice\\models\\playerqueueentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|solutionrelative:matchmakingservice\\models\\playerqueueentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|c:\\projects\\matchmaking\\matchmakingservice\\matchmakingservice\\sharedcontracts\\matchfoundevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|solutionrelative:matchmakingservice\\sharedcontracts\\matchfoundevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|c:\\projects\\matchmaking\\matchmakingservice\\matchmakingservice\\controllers\\matchmakingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|solutionrelative:matchmakingservice\\controllers\\matchmakingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|c:\\projects\\matchmaking\\matchmakingservice\\matchmakingservice\\services\\redismatchmakingqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|solutionrelative:matchmakingservice\\services\\redismatchmakingqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|c:\\projects\\matchmaking\\matchmakingservice\\matchmakingservice\\models\\playerqueueentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|solutionrelative:matchmakingservice\\models\\playerqueueentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|c:\\projects\\matchmaking\\matchmakingservice\\matchmakingservice\\services\\matchmakingqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,63 +46,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Program.cs",
-              "RelativeDocumentMoniker": "MatchmakingService\\Program.cs",
-              "ToolTip": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Program.cs",
-              "RelativeToolTip": "MatchmakingService\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T17:48:51.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MatchmakingWorker .cs",
-              "DocumentMoniker": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Background\\MatchmakingWorker .cs",
-              "RelativeDocumentMoniker": "MatchmakingService\\Background\\MatchmakingWorker .cs",
-              "ToolTip": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Background\\MatchmakingWorker .cs",
-              "RelativeToolTip": "MatchmakingService\\Background\\MatchmakingWorker .cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBUAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T17:54:35.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MatchmakingController.cs",
-              "DocumentMoniker": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Controllers\\MatchmakingController.cs",
-              "RelativeDocumentMoniker": "MatchmakingService\\Controllers\\MatchmakingController.cs",
-              "ToolTip": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Controllers\\MatchmakingController.cs",
-              "RelativeToolTip": "MatchmakingService\\Controllers\\MatchmakingController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCMAAABBAAAAAAAAAA==",
+              "Title": "RabbitMqPublisher.cs",
+              "DocumentMoniker": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Services\\RabbitMqPublisher.cs",
+              "RelativeDocumentMoniker": "MatchmakingService\\Services\\RabbitMqPublisher.cs",
+              "ToolTip": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Services\\RabbitMqPublisher.cs",
+              "RelativeToolTip": "MatchmakingService\\Services\\RabbitMqPublisher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T17:47:29.456Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RedisMatchmakingQueue.cs",
-              "DocumentMoniker": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Services\\RedisMatchmakingQueue.cs",
-              "RelativeDocumentMoniker": "MatchmakingService\\Services\\RedisMatchmakingQueue.cs",
-              "ToolTip": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Services\\RedisMatchmakingQueue.cs",
-              "RelativeToolTip": "MatchmakingService\\Services\\RedisMatchmakingQueue.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA5wDgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T14:32:34.76Z",
+              "WhenOpened": "2026-05-29T17:43:08.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Program.cs",
+              "RelativeDocumentMoniker": "MatchmakingService\\Program.cs",
+              "ToolTip": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Program.cs",
+              "RelativeToolTip": "MatchmakingService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T17:48:51.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MatchmakingWorker .cs",
+              "DocumentMoniker": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Background\\MatchmakingWorker .cs",
+              "RelativeDocumentMoniker": "MatchmakingService\\Background\\MatchmakingWorker .cs",
+              "ToolTip": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Background\\MatchmakingWorker .cs",
+              "RelativeToolTip": "MatchmakingService\\Background\\MatchmakingWorker .cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T17:54:35.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MatchmakingController.cs",
+              "DocumentMoniker": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Controllers\\MatchmakingController.cs",
+              "RelativeDocumentMoniker": "MatchmakingService\\Controllers\\MatchmakingController.cs",
+              "ToolTip": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Controllers\\MatchmakingController.cs",
+              "RelativeToolTip": "MatchmakingService\\Controllers\\MatchmakingController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T17:47:29.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RedisMatchmakingQueue.cs",
+              "DocumentMoniker": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Services\\RedisMatchmakingQueue.cs",
+              "RelativeDocumentMoniker": "MatchmakingService\\Services\\RedisMatchmakingQueue.cs",
+              "ToolTip": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Services\\RedisMatchmakingQueue.cs",
+              "RelativeToolTip": "MatchmakingService\\Services\\RedisMatchmakingQueue.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T14:32:34.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MatchmakingQueue.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Services\\MatchmakingQueue.cs",
               "RelativeDocumentMoniker": "MatchmakingService\\Services\\MatchmakingQueue.cs",
@@ -102,12 +119,11 @@
               "RelativeToolTip": "MatchmakingService\\Services\\MatchmakingQueue.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T17:46:32.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T17:46:32.539Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "IMatchmakingQueue.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Services\\IMatchmakingQueue.cs",
               "RelativeDocumentMoniker": "MatchmakingService\\Services\\IMatchmakingQueue.cs",
@@ -115,12 +131,11 @@
               "RelativeToolTip": "MatchmakingService\\Services\\IMatchmakingQueue.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T17:46:11.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T17:46:11.575Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "PlayerQueueEntry.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Models\\PlayerQueueEntry.cs",
               "RelativeDocumentMoniker": "MatchmakingService\\Models\\PlayerQueueEntry.cs",
@@ -128,8 +143,19 @@
               "RelativeToolTip": "MatchmakingService\\Models\\PlayerQueueEntry.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T17:45:10.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T17:45:10.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MatchFoundEvent.cs",
+              "DocumentMoniker": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\SharedContracts\\MatchFoundEvent.cs",
+              "RelativeDocumentMoniker": "MatchmakingService\\SharedContracts\\MatchFoundEvent.cs",
+              "ToolTip": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\SharedContracts\\MatchFoundEvent.cs",
+              "RelativeToolTip": "MatchmakingService\\SharedContracts\\MatchFoundEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T17:41:07.594Z"
             }
           ]
         }
