@@ -1,7 +1,7 @@
 ﻿
 using MatchmakingService.Services;
-using MatchmakingService.SharedContracts;
 using Microsoft.Extensions.DependencyInjection;
+using Shared.Contracts.Events;
 
 namespace MatchmakingService.Background
 {

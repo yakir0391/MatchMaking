@@ -4,7 +4,8 @@ services:
 
   matchmaking-service:
     build:
-      context: ./MatchmakingService/MatchmakingService
+      context: ./
+      dockerfile: MatchmakingService/MatchmakingService/Dockerfile
     container_name: matchmaking-service
     environment:
       RabbitMQ__Host: "rabbitmq"
