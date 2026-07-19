@@ -14,6 +14,20 @@ services:
     ports:
       - "5000:8080"
 
+  game-session-service:
+    build:
+      context: ./
+      dockerfile: GameSessionService/Dockerfile
+    container_name: game-session-service
+    environment:
+      RabbitMQ__Host: "rabbitmq"
+      RabbitMQ__User: "guest"
+      RabbitMQ__Password: "guest"
+    ports:
+      - "5001:8080"
+    depends_on:
+      - rabbitmq
+
   redis:
     image: redis:7
     container_name: matchmaking-redis
