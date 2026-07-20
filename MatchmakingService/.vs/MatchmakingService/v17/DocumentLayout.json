@@ -58,8 +58,7 @@
               "RelativeToolTip": "Shared.Infrastructure\\Messaging\\RabbitMQ\\Options\\RabbitMqOptions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T16:23:44.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-20T16:23:44.656Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "..\\GameSessionService\\Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-07-16T17:51:28.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-16T17:51:28.177Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "..\\GameSessionService\\Controllers\\GameSessionController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T14:40:12.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-02T14:40:12.247Z"
             },
             {
               "$type": "Document",
@@ -97,8 +94,7 @@
               "RelativeToolTip": "..\\GameSessionService\\Services\\GameService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T14:36:48.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-02T14:36:48.07Z"
             },
             {
               "$type": "Document",
@@ -110,8 +106,7 @@
               "RelativeToolTip": "..\\GameSessionService\\Models\\GameSession.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T16:08:01.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T16:08:01.536Z"
             },
             {
               "$type": "Document",
@@ -123,8 +118,7 @@
               "RelativeToolTip": "..\\GameSessionService\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T16:03:26.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T16:03:26.671Z"
             }
           ]
         }
