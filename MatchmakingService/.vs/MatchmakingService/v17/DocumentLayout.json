@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Projects\\MatchMaking\\MatchmakingService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{152864C5-269C-4F82-AF08-1E44B7033DC5}|Shared.Infrastructure\\Shared.Infrastructure.csproj|c:\\projects\\matchmaking\\matchmakingservice\\shared.infrastructure\\messaging\\rabbitmq\\interfaces\\irabbitmqpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{152864C5-269C-4F82-AF08-1E44B7033DC5}|Shared.Infrastructure\\Shared.Infrastructure.csproj|solutionrelative:shared.infrastructure\\messaging\\rabbitmq\\interfaces\\irabbitmqpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{152864C5-269C-4F82-AF08-1E44B7033DC5}|Shared.Infrastructure\\Shared.Infrastructure.csproj|c:\\projects\\matchmaking\\matchmakingservice\\shared.infrastructure\\messaging\\rabbitmq\\options\\rabbitmqoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{152864C5-269C-4F82-AF08-1E44B7033DC5}|Shared.Infrastructure\\Shared.Infrastructure.csproj|solutionrelative:shared.infrastructure\\messaging\\rabbitmq\\options\\rabbitmqoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A8D5F797-D6B3-46E7-991B-0F55863080CA}|..\\GameSessionService\\GameSessionService.csproj|c:\\projects\\matchmaking\\gamesessionservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
@@ -38,31 +30,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IRabbitMqPublisher.cs",
-              "DocumentMoniker": "C:\\Projects\\MatchMaking\\MatchmakingService\\Shared.Infrastructure\\Messaging\\RabbitMQ\\Interfaces\\IRabbitMqPublisher.cs",
-              "RelativeDocumentMoniker": "Shared.Infrastructure\\Messaging\\RabbitMQ\\Interfaces\\IRabbitMqPublisher.cs",
-              "ToolTip": "C:\\Projects\\MatchMaking\\MatchmakingService\\Shared.Infrastructure\\Messaging\\RabbitMQ\\Interfaces\\IRabbitMqPublisher.cs",
-              "RelativeToolTip": "Shared.Infrastructure\\Messaging\\RabbitMQ\\Interfaces\\IRabbitMqPublisher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T16:24:44.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RabbitMqOptions.cs",
-              "DocumentMoniker": "C:\\Projects\\MatchMaking\\MatchmakingService\\Shared.Infrastructure\\Messaging\\RabbitMQ\\Options\\RabbitMqOptions.cs",
-              "RelativeDocumentMoniker": "Shared.Infrastructure\\Messaging\\RabbitMQ\\Options\\RabbitMqOptions.cs",
-              "ToolTip": "C:\\Projects\\MatchMaking\\MatchmakingService\\Shared.Infrastructure\\Messaging\\RabbitMQ\\Options\\RabbitMqOptions.cs",
-              "RelativeToolTip": "Shared.Infrastructure\\Messaging\\RabbitMQ\\Options\\RabbitMqOptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T16:23:44.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\Dockerfile",
               "RelativeDocumentMoniker": "..\\GameSessionService\\Dockerfile",
@@ -70,11 +37,12 @@
               "RelativeToolTip": "..\\GameSessionService\\Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-07-16T17:51:28.177Z"
+              "WhenOpened": "2026-07-16T17:51:28.177Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "GameSessionController.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\Controllers\\GameSessionController.cs",
               "RelativeDocumentMoniker": "..\\GameSessionService\\Controllers\\GameSessionController.cs",
@@ -86,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "GameService.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\Services\\GameService.cs",
               "RelativeDocumentMoniker": "..\\GameSessionService\\Services\\GameService.cs",
@@ -98,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "GameSession.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\Models\\GameSession.cs",
               "RelativeDocumentMoniker": "..\\GameSessionService\\Models\\GameSession.cs",
@@ -110,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\Program.cs",
               "RelativeDocumentMoniker": "..\\GameSessionService\\Program.cs",
