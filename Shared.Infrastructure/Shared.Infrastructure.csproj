@@ -13,7 +13,6 @@
 
   <ItemGroup>
     <Folder Include="Messaging\RabbitMQ\Consumers\" />
-    <Folder Include="Messaging\RabbitMQ\Publishers\" />
   </ItemGroup>
 
 </Project>

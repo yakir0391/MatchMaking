@@ -2,6 +2,9 @@ using MatchmakingService.Background;
 using MatchmakingService.Services;
 using Shared.Infrastructure.Messaging.RabbitMQ.Options;
 using StackExchange.Redis;
+using Shared.Infrastructure.Messaging.RabbitMQ.Publishers;
+using Shared.Infrastructure.Messaging.RabbitMQ.Connection;
+using Shared.Infrastructure.Messaging.RabbitMQ.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,7 +20,8 @@ builder.Services.AddSingleton<IConnectionMultiplexer>(
 
 builder.Services.AddSingleton<IMatchmakingQueue, RedisMatchmakingQueue>();
 builder.Services.AddHostedService<MatchmakingWorker>();
-builder.Services.AddSingleton<RabbitMqPublisher>();
+builder.Services.AddSingleton<RabbitMqConnection>();
+builder.Services.AddSingleton<IRabbitMqPublisher, RabbitMqPublisher>();
 builder.Services.Configure<RabbitMqOptions>(
     builder.Configuration.GetSection(RabbitMqOptions.SectionName));
 

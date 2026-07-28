@@ -3,13 +3,21 @@
   "WorkspaceRootPath": "C:\\Projects\\MatchMaking\\MatchmakingService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|c:\\projects\\matchmaking\\matchmakingservice\\matchmakingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|solutionrelative:matchmakingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|c:\\projects\\matchmaking\\matchmakingservice\\matchmakingservice\\background\\matchmakingworker .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|solutionrelative:matchmakingservice\\background\\matchmakingworker .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8D5F797-D6B3-46E7-991B-0F55863080CA}|..\\GameSessionService\\GameSessionService.csproj|c:\\projects\\matchmaking\\gamesessionservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{926243C1-6C87-6928-51E2-D55F7B934D39}|..\\Shared.Infrastructure\\Shared.Infrastructure.csproj|c:\\projects\\matchmaking\\shared.infrastructure\\messaging\\rabbitmq\\connection\\rabbitmqconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8D5F797-D6B3-46E7-991B-0F55863080CA}|..\\GameSessionService\\GameSessionService.csproj|c:\\projects\\matchmaking\\gamesessionservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8D5F797-D6B3-46E7-991B-0F55863080CA}|..\\GameSessionService\\GameSessionService.csproj|c:\\projects\\matchmaking\\gamesessionservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8D5F797-D6B3-46E7-991B-0F55863080CA}|..\\GameSessionService\\GameSessionService.csproj|c:\\projects\\matchmaking\\gamesessionservice\\controllers\\gamesessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -28,24 +36,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MatchmakingWorker .cs",
+              "DocumentMoniker": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Background\\MatchmakingWorker .cs",
+              "RelativeDocumentMoniker": "MatchmakingService\\Background\\MatchmakingWorker .cs",
+              "ToolTip": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Background\\MatchmakingWorker .cs",
+              "RelativeToolTip": "MatchmakingService\\Background\\MatchmakingWorker .cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T17:01:03.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Program.cs",
+              "RelativeDocumentMoniker": "MatchmakingService\\Program.cs",
+              "ToolTip": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Program.cs",
+              "RelativeToolTip": "MatchmakingService\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T16:08:43.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\Program.cs",
+              "RelativeDocumentMoniker": "..\\GameSessionService\\Program.cs",
+              "ToolTip": "C:\\Projects\\MatchMaking\\GameSessionService\\Program.cs",
+              "RelativeToolTip": "..\\GameSessionService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T17:47:36.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "RabbitMqConnection.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\Shared.Infrastructure\\Messaging\\RabbitMQ\\Connection\\RabbitMqConnection.cs",
               "RelativeDocumentMoniker": "..\\Shared.Infrastructure\\Messaging\\RabbitMQ\\Connection\\RabbitMqConnection.cs",
               "ToolTip": "C:\\Projects\\MatchMaking\\Shared.Infrastructure\\Messaging\\RabbitMQ\\Connection\\RabbitMqConnection.cs",
               "RelativeToolTip": "..\\Shared.Infrastructure\\Messaging\\RabbitMQ\\Connection\\RabbitMqConnection.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAcwA8AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAcwA8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-20T18:17:05.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\Dockerfile",
               "RelativeDocumentMoniker": "..\\GameSessionService\\Dockerfile",
@@ -53,12 +100,11 @@
               "RelativeToolTip": "..\\GameSessionService\\Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-07-16T17:51:28.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-16T17:51:28.177Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GameSessionController.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\Controllers\\GameSessionController.cs",
               "RelativeDocumentMoniker": "..\\GameSessionService\\Controllers\\GameSessionController.cs",
@@ -70,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "GameService.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\Services\\GameService.cs",
               "RelativeDocumentMoniker": "..\\GameSessionService\\Services\\GameService.cs",
@@ -82,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "GameSession.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\Models\\GameSession.cs",
               "RelativeDocumentMoniker": "..\\GameSessionService\\Models\\GameSession.cs",
@@ -91,18 +137,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-26T16:08:01.536Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\Program.cs",
-              "RelativeDocumentMoniker": "..\\GameSessionService\\Program.cs",
-              "ToolTip": "C:\\Projects\\MatchMaking\\GameSessionService\\Program.cs",
-              "RelativeToolTip": "..\\GameSessionService\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T16:03:26.671Z"
             }
           ]
         }
