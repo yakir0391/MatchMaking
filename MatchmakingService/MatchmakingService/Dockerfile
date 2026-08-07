@@ -4,6 +4,7 @@ WORKDIR /src
 
 COPY ["MatchmakingService/MatchmakingService/MatchmakingService.csproj", "MatchmakingService/MatchmakingService/"]
 COPY ["Shared.Contracts/Shared.Contracts.csproj", "Shared.Contracts/"]
+COPY ["Shared.Infrastructure/Shared.Infrastructure.csproj", "Shared.Infrastructure/"]
 
 RUN dotnet restore "MatchmakingService/MatchmakingService/MatchmakingService.csproj"
 
