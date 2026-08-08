@@ -5,6 +5,7 @@ WORKDIR /src
 
 COPY ["GameSessionService/GameSessionService.csproj", "GameSessionService/"]
 COPY ["Shared.Contracts/Shared.Contracts.csproj", "Shared.Contracts/"]
+COPY ["Shared.Infrastructure/Shared.Infrastructure.csproj", "Shared.Infrastructure/"]
 
 RUN dotnet restore "GameSessionService/GameSessionService.csproj"
 

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Projects\\MatchMaking\\MatchmakingService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|c:\\projects\\matchmaking\\matchmakingservice\\matchmakingservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|solutionrelative:matchmakingservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|c:\\projects\\matchmaking\\matchmakingservice\\matchmakingservice\\background\\matchmakingworker .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|solutionrelative:matchmakingservice\\background\\matchmakingworker .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,10 +19,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8D5F797-D6B3-46E7-991B-0F55863080CA}|..\\GameSessionService\\GameSessionService.csproj|c:\\projects\\matchmaking\\gamesessionservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|c:\\projects\\matchmaking\\matchmakingservice\\matchmakingservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{9E72AB72-1B83-4B5C-845E-45B097EA768A}|MatchmakingService\\MatchmakingService.csproj|solutionrelative:matchmakingservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{926243C1-6C87-6928-51E2-D55F7B934D39}|..\\Shared.Infrastructure\\Shared.Infrastructure.csproj|c:\\projects\\matchmaking\\shared.infrastructure\\messaging\\rabbitmq\\connection\\rabbitmqconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -43,11 +43,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Dockerfile",
               "RelativeDocumentMoniker": "MatchmakingService\\Dockerfile",
@@ -60,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "RabbitMqPublisher.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\Shared.Infrastructure\\Messaging\\RabbitMQ\\Publishers\\RabbitMqPublisher.cs",
               "RelativeDocumentMoniker": "..\\Shared.Infrastructure\\Messaging\\RabbitMQ\\Publishers\\RabbitMqPublisher.cs",
@@ -68,12 +68,11 @@
               "RelativeToolTip": "..\\Shared.Infrastructure\\Messaging\\RabbitMQ\\Publishers\\RabbitMqPublisher.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAqwBsAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T17:11:12.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-28T17:11:12.904Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MatchmakingWorker .cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Background\\MatchmakingWorker .cs",
               "RelativeDocumentMoniker": "MatchmakingService\\Background\\MatchmakingWorker .cs",
@@ -86,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\MatchmakingService\\MatchmakingService\\Program.cs",
               "RelativeDocumentMoniker": "MatchmakingService\\Program.cs",
@@ -94,12 +93,11 @@
               "RelativeToolTip": "MatchmakingService\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T16:08:43.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-28T16:08:43.72Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\Program.cs",
               "RelativeDocumentMoniker": "..\\GameSessionService\\Program.cs",
@@ -107,8 +105,7 @@
               "RelativeToolTip": "..\\GameSessionService\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T17:47:36.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T17:47:36.064Z"
             },
             {
               "$type": "Document",

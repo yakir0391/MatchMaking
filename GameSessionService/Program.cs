@@ -1,3 +1,4 @@
+using GameSessionService.Consumers;
 using GameSessionService.Services;
 using Shared.Infrastructure.Messaging.RabbitMQ.Options;
 
@@ -12,6 +13,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<GameService>();
 builder.Services.Configure<RabbitMqOptions>(
     builder.Configuration.GetSection(RabbitMqOptions.SectionName));
+builder.Services.AddHostedService<MatchFoundConsumer>();
 
 var app = builder.Build();
 
