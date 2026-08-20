@@ -23,9 +23,11 @@ services:
       RabbitMQ__Host: "rabbitmq"
       RabbitMQ__User: "guest"
       RabbitMQ__Password: "guest"
+      ConnectionStrings__GameSessionDatabase: "Host=postgres;Port=5432;Database=matchmaking;Username=postgres;Password=postgres"
     ports:
       - "5001:8080"
     depends_on:
+      - postgres 
       - rabbitmq
 
   redis:
@@ -40,3 +42,18 @@ services:
     ports:
     - "5672:5672"
     - "15672:15672"
+
+  postgres:
+    image: postgres:16
+    container_name: matchmaking-postgres
+    environment:
+      POSTGRES_DB: matchmaking
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

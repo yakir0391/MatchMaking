@@ -1,5 +1,8 @@
 using GameSessionService.Consumers;
+using GameSessionService.Data;
 using GameSessionService.Services;
+using Microsoft.EntityFrameworkCore;
+using Shared.Infrastructure.Messaging.RabbitMQ.Connection;
 using Shared.Infrastructure.Messaging.RabbitMQ.Options;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +17,9 @@ builder.Services.AddSingleton<GameService>();
 builder.Services.Configure<RabbitMqOptions>(
     builder.Configuration.GetSection(RabbitMqOptions.SectionName));
 builder.Services.AddHostedService<MatchFoundConsumer>();
+builder.Services.AddSingleton<RabbitMqConnection>();
+builder.Services.AddDbContext<GameSessionDbContext>(options => 
+    options.UseNpgsql(builder.Configuration.GetConnectionString("GameSessionDatabase")));
 
 var app = builder.Build();
 
@@ -29,5 +35,14 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext =
+        scope.ServiceProvider
+            .GetRequiredService<GameSessionDbContext>();
+
+    await dbContext.Database.MigrateAsync();
+}
 
 app.Run();
