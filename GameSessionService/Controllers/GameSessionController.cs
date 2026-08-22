@@ -7,17 +7,18 @@ namespace GameSessionService.Controllers
     [Route("api/games")]
     public class GameSessionController : ControllerBase
     {
-        private readonly GameService _gameService;
+        private readonly IGameService _gameService;
 
-        public GameSessionController(GameService gameService)
+        public GameSessionController(IGameService gameService)
         {
             _gameService = gameService;
         }
 
         [HttpGet]
-        public IActionResult GetAllGames()
+        public async Task<IActionResult> GetAllGames()
         {
-            return Ok(_gameService.GetAll());
+            var games = await _gameService.GetAllAsync();
+            return Ok(games);
         }
     }
 }

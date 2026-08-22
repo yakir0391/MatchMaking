@@ -1,20 +1,42 @@
-﻿using GameSessionService.Models;
+﻿using GameSessionService.Data;
+using GameSessionService.Models;
+using Microsoft.EntityFrameworkCore;
+using Shared.Contracts.Events;
 using System.Collections.Concurrent;
 
 namespace GameSessionService.Services
 {
-    public class GameService
+    public class GameService : IGameService
     {
-        private readonly ConcurrentDictionary<Guid, GameSession> _games = new();
+        private readonly GameSessionDbContext _db;
 
-        public void Add(GameSession gameSession)
+        public GameService(GameSessionDbContext db)
         {
-            _games.TryAdd(gameSession.Id, gameSession);
+            _db = db;
+        }
+        public async Task<GameSession> CreateGameAsync(MatchFoundEvent matchFoundEvent)
+        {
+            var gameSession = new GameSession
+            {
+                Id = Guid.NewGuid(),
+                Player1Id = matchFoundEvent.Player1Id,
+                Player2Id = matchFoundEvent.Player2Id,
+                CreatedAt = matchFoundEvent.CreatedAt,
+                Status = "Created"
+            };
+
+            _db.GameSessions.Add(gameSession);
+
+            await _db.SaveChangesAsync();
+
+            Console.WriteLine($"Game created: {gameSession.Id} for players {gameSession.Player1Id} and {gameSession.Player2Id}");
+
+            return gameSession;
         }
 
-        public IEnumerable<GameSession> GetAll()
+        public async Task<List<GameSession>> GetAllAsync()
         {
-            return _games.Values;
+            return await _db.GameSessions.ToListAsync();
         }
     }
 }

@@ -20,6 +20,7 @@ builder.Services.AddHostedService<MatchFoundConsumer>();
 builder.Services.AddSingleton<RabbitMqConnection>();
 builder.Services.AddDbContext<GameSessionDbContext>(options => 
     options.UseNpgsql(builder.Configuration.GetConnectionString("GameSessionDatabase")));
+builder.Services.AddScoped<IGameService, GameService>();
 
 var app = builder.Build();
 

@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Projects\\MatchMaking\\MatchmakingService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A8D5F797-D6B3-46E7-991B-0F55863080CA}|..\\GameSessionService\\GameSessionService.csproj|c:\\projects\\matchmaking\\gamesessionservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A8D5F797-D6B3-46E7-991B-0F55863080CA}|..\\GameSessionService\\GameSessionService.csproj|c:\\projects\\matchmaking\\gamesessionservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -10,9 +13,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8D5F797-D6B3-46E7-991B-0F55863080CA}|..\\GameSessionService\\GameSessionService.csproj|c:\\projects\\matchmaking\\gamesessionservice\\data\\gamesessiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8D5F797-D6B3-46E7-991B-0F55863080CA}|..\\GameSessionService\\GameSessionService.csproj|c:\\projects\\matchmaking\\gamesessionservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8D5F797-D6B3-46E7-991B-0F55863080CA}|..\\GameSessionService\\GameSessionService.csproj|c:\\projects\\matchmaking\\gamesessionservice\\models\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -34,24 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\appsettings.json",
               "RelativeDocumentMoniker": "..\\GameSessionService\\appsettings.json",
               "ToolTip": "C:\\Projects\\MatchMaking\\GameSessionService\\appsettings.json",
               "RelativeToolTip": "..\\GameSessionService\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-08-20T14:54:17.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GameSessionDbContext.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\Data\\GameSessionDbContext.cs",
               "RelativeDocumentMoniker": "..\\GameSessionService\\Data\\GameSessionDbContext.cs",
@@ -64,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MatchFoundConsumer.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\Consumers\\MatchFoundConsumer.cs",
               "RelativeDocumentMoniker": "..\\GameSessionService\\Consumers\\MatchFoundConsumer.cs",
@@ -77,13 +77,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\Program.cs",
               "RelativeDocumentMoniker": "..\\GameSessionService\\Program.cs",
               "ToolTip": "C:\\Projects\\MatchMaking\\GameSessionService\\Program.cs",
               "RelativeToolTip": "..\\GameSessionService\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-21T17:47:36.064Z",
               "EditorCaption": ""

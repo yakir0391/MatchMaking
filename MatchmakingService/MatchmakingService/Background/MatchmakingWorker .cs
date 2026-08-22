@@ -31,7 +31,8 @@ namespace MatchmakingService.Background
                     var evt = new MatchFoundEvent
                     {
                         Player1Id = player1.PlayerId,
-                        Player2Id = player2.PlayerId
+                        Player2Id = player2.PlayerId,
+                        CreatedAt = DateTime.UtcNow
                     };
 
                     await _publisher.PublishAsync("match_found", evt);

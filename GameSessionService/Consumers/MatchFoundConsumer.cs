@@ -1,16 +1,22 @@
-﻿using RabbitMQ.Client;
+﻿using GameSessionService.Services;
+using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
+using Shared.Contracts.Events;
 using Shared.Infrastructure.Messaging.RabbitMQ.Connection;
+using System.Text;
+using System.Text.Json;
 
 namespace GameSessionService.Consumers
 {
     public class MatchFoundConsumer : BackgroundService
     {
         private readonly RabbitMqConnection _rabbitMqConnection;
+        private readonly IServiceScopeFactory _scope;
 
-        public MatchFoundConsumer(RabbitMqConnection rabbitMqConnection)
+        public MatchFoundConsumer(RabbitMqConnection rabbitMqConnection, IServiceScopeFactory scope)
         {
             this._rabbitMqConnection = rabbitMqConnection;
+            this._scope = scope;
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -34,13 +40,35 @@ namespace GameSessionService.Consumers
 
             consumer.ReceivedAsync += async (sender, args) =>
             {
-                var body = args.Body.ToArray();
+                try
+                {
+                    var body = args.Body.ToArray();
 
-                var message = System.Text.Encoding.UTF8.GetString(body);
+                    var message = Encoding.UTF8.GetString(body);
 
-                Console.WriteLine($"Received message: {message}");
+                    Console.WriteLine($"Received message: {message}");
 
-                await Task.CompletedTask;
+                    var matchFoundEvent = JsonSerializer.Deserialize<MatchFoundEvent>(message);
+
+                    if (matchFoundEvent == null)
+                    {
+                        Console.WriteLine("Failed to deserialize MatchFoundEvent.");
+                        return;
+                    }
+
+                    using (var scope = _scope.CreateScope())
+                    {
+                        var gameSessionService = scope.ServiceProvider.GetRequiredService<IGameService>();
+                        await gameSessionService.CreateGameAsync(matchFoundEvent);
+                        Console.WriteLine("GameSession created successfully.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error message: {ex.Message}");
+                    Console.WriteLine("Error stack trace: " + ex.StackTrace);
+                }
+                
             };
 
             await channel.BasicConsumeAsync(
