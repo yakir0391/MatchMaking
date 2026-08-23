@@ -20,5 +20,18 @@ namespace GameSessionService.Controllers
             var games = await _gameService.GetAllAsync();
             return Ok(games);
         }
+
+        [HttpGet("{id:guid}")]
+        public async Task<IActionResult> GetGameById(Guid id)
+        {
+            var game = await _gameService.GetByIdAsync(id);
+
+            if (game == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(game);
+        }
     }
 }

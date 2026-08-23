@@ -38,5 +38,10 @@ namespace GameSessionService.Services
         {
             return await _db.GameSessions.ToListAsync();
         }
+
+        public async Task<GameSession> GetByIdAsync(Guid id)
+        {
+            return await _db.GameSessions.FirstOrDefaultAsync(game => game.Id == id);
+        }
     }
 }

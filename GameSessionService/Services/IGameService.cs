@@ -7,5 +7,6 @@ namespace GameSessionService.Services
     {
         Task<GameSession> CreateGameAsync(MatchFoundEvent matchFoundEvent);
         Task<List<GameSession>> GetAllAsync();
+        Task<GameSession> GetByIdAsync(Guid id);
     }
 }
