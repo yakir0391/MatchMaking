@@ -30,6 +30,16 @@ services:
       - postgres 
       - rabbitmq
 
+  notification-service:
+    build:
+      context: ./
+      dockerfile: NotificationService/Dockerfile
+    container_name: notification-service
+    ports:
+      - "5002:8080"
+    depends_on:
+      - rabbitmq
+
   redis:
     image: redis:7
     container_name: matchmaking-redis

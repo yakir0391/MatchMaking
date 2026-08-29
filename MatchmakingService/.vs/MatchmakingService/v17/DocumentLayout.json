@@ -3,6 +3,12 @@
   "WorkspaceRootPath": "C:\\Projects\\MatchMaking\\MatchmakingService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4D85C7CE-5758-4F32-B8ED-7F14B7D14863}|..\\NotificationService\\NotificationService.csproj|c:\\projects\\matchmaking\\notificationservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D85C7CE-5758-4F32-B8ED-7F14B7D14863}|..\\NotificationService\\NotificationService.csproj|c:\\projects\\matchmaking\\notificationservice\\notificationservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4D85C7CE-5758-4F32-B8ED-7F14B7D14863}|..\\NotificationService\\NotificationService.csproj|c:\\projects\\matchmaking\\notificationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,11 +40,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotificationService",
+              "DocumentMoniker": "C:\\Projects\\MatchMaking\\NotificationService\\NotificationService.csproj",
+              "RelativeDocumentMoniker": "..\\NotificationService\\NotificationService.csproj",
+              "ToolTip": "C:\\Projects\\MatchMaking\\NotificationService\\NotificationService.csproj",
+              "RelativeToolTip": "..\\NotificationService\\NotificationService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-29T12:14:04.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Projects\\MatchMaking\\NotificationService\\Dockerfile",
+              "RelativeDocumentMoniker": "..\\NotificationService\\Dockerfile",
+              "ToolTip": "C:\\Projects\\MatchMaking\\NotificationService\\Dockerfile",
+              "RelativeToolTip": "..\\NotificationService\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-08-29T12:06:33.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\NotificationService\\Program.cs",
               "RelativeDocumentMoniker": "..\\NotificationService\\Program.cs",
@@ -51,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "NotificationHub.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\NotificationService\\Hubs\\NotificationHub.cs",
               "RelativeDocumentMoniker": "..\\NotificationService\\Hubs\\NotificationHub.cs",
@@ -59,12 +91,11 @@
               "RelativeToolTip": "..\\NotificationService\\Hubs\\NotificationHub.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T16:40:09.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-24T16:40:09.122Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\appsettings.json",
               "RelativeDocumentMoniker": "..\\GameSessionService\\appsettings.json",
@@ -72,12 +103,11 @@
               "RelativeToolTip": "..\\GameSessionService\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-20T14:54:17.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-20T14:54:17.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\Program.cs",
               "RelativeDocumentMoniker": "..\\GameSessionService\\Program.cs",
@@ -85,12 +115,11 @@
               "RelativeToolTip": "..\\GameSessionService\\Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAIBJwBYAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T17:47:36.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T17:47:36.064Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GameSessionController.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\Controllers\\GameSessionController.cs",
               "RelativeDocumentMoniker": "..\\GameSessionService\\Controllers\\GameSessionController.cs",
@@ -98,12 +127,11 @@
               "RelativeToolTip": "..\\GameSessionService\\Controllers\\GameSessionController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T14:40:12.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-02T14:40:12.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "IGameService.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\Services\\IGameService.cs",
               "RelativeDocumentMoniker": "..\\GameSessionService\\Services\\IGameService.cs",
@@ -111,12 +139,11 @@
               "RelativeToolTip": "..\\GameSessionService\\Services\\IGameService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-22T10:35:26.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-22T10:35:26.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GameService.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\Services\\GameService.cs",
               "RelativeDocumentMoniker": "..\\GameSessionService\\Services\\GameService.cs",
@@ -124,12 +151,11 @@
               "RelativeToolTip": "..\\GameSessionService\\Services\\GameService.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAMwCsAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T14:36:48.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-02T14:36:48.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "GameSessionDbContext.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\Data\\GameSessionDbContext.cs",
               "RelativeDocumentMoniker": "..\\GameSessionService\\Data\\GameSessionDbContext.cs",
@@ -137,8 +163,7 @@
               "RelativeToolTip": "..\\GameSessionService\\Data\\GameSessionDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-20T14:48:28.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-20T14:48:28.819Z"
             }
           ]
         }
