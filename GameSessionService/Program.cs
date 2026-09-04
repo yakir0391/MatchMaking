@@ -3,6 +3,7 @@ using GameSessionService.Data;
 using GameSessionService.Services;
 using Microsoft.EntityFrameworkCore;
 using Shared.Infrastructure.Messaging.RabbitMQ.Connection;
+using Shared.Infrastructure.Messaging.RabbitMQ.Interfaces;
 using Shared.Infrastructure.Messaging.RabbitMQ.Options;
 using Shared.Infrastructure.Messaging.RabbitMQ.Publishers;
 
@@ -22,7 +23,7 @@ builder.Services.AddSingleton<RabbitMqConnection>();
 builder.Services.AddDbContext<GameSessionDbContext>(options => 
     options.UseNpgsql(builder.Configuration.GetConnectionString("GameSessionDatabase")));
 builder.Services.AddScoped<IGameService, GameService>();
-builder.Services.AddSingleton<RabbitMqPublisher>();
+builder.Services.AddSingleton<IRabbitMqPublisher,RabbitMqPublisher>();
 
 var app = builder.Build();
 

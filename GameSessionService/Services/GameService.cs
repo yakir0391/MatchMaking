@@ -2,6 +2,7 @@
 using GameSessionService.Models;
 using Microsoft.EntityFrameworkCore;
 using Shared.Contracts.Events;
+using Shared.Infrastructure.Messaging.RabbitMQ.Interfaces;
 using Shared.Infrastructure.Messaging.RabbitMQ.Publishers;
 using System.Collections.Concurrent;
 
@@ -10,9 +11,9 @@ namespace GameSessionService.Services
     public class GameService : IGameService
     {
         private readonly GameSessionDbContext _db;
-        private readonly RabbitMqPublisher _publisher;
+        private readonly IRabbitMqPublisher _publisher;
 
-        public GameService(GameSessionDbContext db, RabbitMqPublisher publisher)
+        public GameService(GameSessionDbContext db, IRabbitMqPublisher publisher)
         {
             _db = db;
             _publisher = publisher;
