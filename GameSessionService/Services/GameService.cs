@@ -2,6 +2,7 @@
 using GameSessionService.Models;
 using Microsoft.EntityFrameworkCore;
 using Shared.Contracts.Events;
+using Shared.Infrastructure.Messaging.RabbitMQ.Publishers;
 using System.Collections.Concurrent;
 
 namespace GameSessionService.Services
@@ -9,10 +10,12 @@ namespace GameSessionService.Services
     public class GameService : IGameService
     {
         private readonly GameSessionDbContext _db;
+        private readonly RabbitMqPublisher _publisher;
 
-        public GameService(GameSessionDbContext db)
+        public GameService(GameSessionDbContext db, RabbitMqPublisher publisher)
         {
             _db = db;
+            _publisher = publisher;
         }
         public async Task<GameSession> CreateGameAsync(MatchFoundEvent matchFoundEvent)
         {
@@ -30,6 +33,19 @@ namespace GameSessionService.Services
             await _db.SaveChangesAsync();
 
             Console.WriteLine($"Game created: {gameSession.Id} for players {gameSession.Player1Id} and {gameSession.Player2Id}");
+
+            var gameCreatedEvent = new GameCreatedEvent
+            {
+                GameId = gameSession.Id,
+                Player1Id = gameSession.Player1Id,
+                Player2Id = gameSession.Player2Id,
+                CreatedAt = gameSession.CreatedAt,
+                Status = gameSession.Status
+            };
+
+            await _publisher.PublishAsync("game_created", gameCreatedEvent);
+
+            Console.WriteLine($"Published GameCreatedEvent for game {gameSession.Id}");
 
             return gameSession;
         }
