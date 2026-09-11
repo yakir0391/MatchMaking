@@ -1,4 +1,7 @@
+using NotificationService.Consumers;
 using NotificationService.Hubs;
+using Shared.Infrastructure.Messaging.RabbitMQ.Connection;
+using Shared.Infrastructure.Messaging.RabbitMQ.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +12,10 @@ builder.Services.AddSignalR();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSingleton<RabbitMqConnection>();
+builder.Services.Configure<RabbitMqOptions>(
+    builder.Configuration.GetSection(RabbitMqOptions.SectionName));
+builder.Services.AddHostedService<GameCreatedConsumer>();
 
 var app = builder.Build();
 

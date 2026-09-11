@@ -25,7 +25,7 @@ namespace GameSessionService.Consumers
 
             var connection = await _rabbitMqConnection.GetConnectionAsync();
 
-            var channel = await connection.CreateChannelAsync();
+            await using var channel = await connection.CreateChannelAsync();
 
             await channel.QueueDeclareAsync(
             queue: "match_found",
@@ -34,7 +34,7 @@ namespace GameSessionService.Consumers
             autoDelete: false,
             arguments: null);
 
-            Console.WriteLine("Connected to RabbitMQ. Waiting for messages...");
+            Console.WriteLine("Connected to RabbitMQ. Waiting for match_found messages...");
 
             var consumer = new AsyncEventingBasicConsumer(channel);
 
