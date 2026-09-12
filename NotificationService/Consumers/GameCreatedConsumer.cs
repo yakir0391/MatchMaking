@@ -1,4 +1,6 @@
-﻿using RabbitMQ.Client;
+﻿using Microsoft.AspNetCore.SignalR;
+using NotificationService.Hubs;
+using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using Shared.Contracts.Events;
 using Shared.Infrastructure.Messaging.RabbitMQ.Connection;
@@ -10,10 +12,12 @@ namespace NotificationService.Consumers
     public class GameCreatedConsumer : BackgroundService
     {
         private readonly RabbitMqConnection _rabbitMqConnection;
+        private readonly IHubContext<NotificationHub> _hubContext;
 
-        public GameCreatedConsumer(RabbitMqConnection rabbitMqConnection)
+        public GameCreatedConsumer(RabbitMqConnection rabbitMqConnection, IHubContext<NotificationHub> hubContext)
         {
             _rabbitMqConnection = rabbitMqConnection;
+            _hubContext = hubContext;
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -58,7 +62,8 @@ namespace NotificationService.Consumers
 
                     Console.WriteLine($"Players: {gameCreatedEvent.Player1Id} vs {gameCreatedEvent.Player2Id}");
 
-                    await Task.CompletedTask;
+                    await _hubContext.Clients.Users(gameCreatedEvent.Player1Id, gameCreatedEvent.Player2Id)
+                        .SendAsync("GameCreated", gameCreatedEvent);
                 }
                 catch (Exception ex)
                 {

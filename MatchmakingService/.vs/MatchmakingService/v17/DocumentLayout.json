@@ -3,22 +3,25 @@
   "WorkspaceRootPath": "C:\\Projects\\MatchMaking\\MatchmakingService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8D5F797-D6B3-46E7-991B-0F55863080CA}|..\\GameSessionService\\GameSessionService.csproj|c:\\projects\\matchmaking\\gamesessionservice\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0240905C-0DE7-49D0-BE94-D0773B3D1007}|..\\SignalRTestClient\\SignalRTestClient.csproj|c:\\projects\\matchmaking\\signalrtestclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8D5F797-D6B3-46E7-991B-0F55863080CA}|..\\GameSessionService\\GameSessionService.csproj|c:\\projects\\matchmaking\\gamesessionservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B9B1B2B-F8A4-40C5-9A26-471C4EA21622}|..\\Shared.Contracts\\Shared.Contracts.csproj|c:\\projects\\matchmaking\\shared.contracts\\events\\gamecreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D85C7CE-5758-4F32-B8ED-7F14B7D14863}|..\\NotificationService\\NotificationService.csproj|c:\\projects\\matchmaking\\notificationservice\\providers\\playeriduseridprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D85C7CE-5758-4F32-B8ED-7F14B7D14863}|..\\NotificationService\\NotificationService.csproj|c:\\projects\\matchmaking\\notificationservice\\hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D85C7CE-5758-4F32-B8ED-7F14B7D14863}|..\\NotificationService\\NotificationService.csproj|c:\\projects\\matchmaking\\notificationservice\\consumers\\gamecreatedconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D85C7CE-5758-4F32-B8ED-7F14B7D14863}|..\\NotificationService\\NotificationService.csproj|c:\\projects\\matchmaking\\notificationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D85C7CE-5758-4F32-B8ED-7F14B7D14863}|..\\NotificationService\\NotificationService.csproj|c:\\projects\\matchmaking\\notificationservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B9B1B2B-F8A4-40C5-9A26-471C4EA21622}|..\\Shared.Contracts\\Shared.Contracts.csproj|c:\\projects\\matchmaking\\shared.contracts\\events\\gamecreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,11 +31,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\MatchMaking\\SignalRTestClient\\Program.cs",
+              "RelativeDocumentMoniker": "..\\SignalRTestClient\\Program.cs",
+              "ToolTip": "C:\\Projects\\MatchMaking\\SignalRTestClient\\Program.cs",
+              "RelativeToolTip": "..\\SignalRTestClient\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T12:14:21.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerIdUserIdProvider.cs",
+              "DocumentMoniker": "C:\\Projects\\MatchMaking\\NotificationService\\Providers\\PlayerIdUserIdProvider.cs",
+              "RelativeDocumentMoniker": "..\\NotificationService\\Providers\\PlayerIdUserIdProvider.cs",
+              "ToolTip": "C:\\Projects\\MatchMaking\\NotificationService\\Providers\\PlayerIdUserIdProvider.cs",
+              "RelativeToolTip": "..\\NotificationService\\Providers\\PlayerIdUserIdProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T10:49:44.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "NotificationHub.cs",
+              "DocumentMoniker": "C:\\Projects\\MatchMaking\\NotificationService\\Hubs\\NotificationHub.cs",
+              "RelativeDocumentMoniker": "..\\NotificationService\\Hubs\\NotificationHub.cs",
+              "ToolTip": "C:\\Projects\\MatchMaking\\NotificationService\\Hubs\\NotificationHub.cs",
+              "RelativeToolTip": "..\\NotificationService\\Hubs\\NotificationHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T16:40:09.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameCreatedConsumer.cs",
+              "DocumentMoniker": "C:\\Projects\\MatchMaking\\NotificationService\\Consumers\\GameCreatedConsumer.cs",
+              "RelativeDocumentMoniker": "..\\NotificationService\\Consumers\\GameCreatedConsumer.cs",
+              "ToolTip": "C:\\Projects\\MatchMaking\\NotificationService\\Consumers\\GameCreatedConsumer.cs",
+              "RelativeToolTip": "..\\NotificationService\\Consumers\\GameCreatedConsumer.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowEEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T11:23:05.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GameCreatedEvent.cs",
               "DocumentMoniker": "C:\\Projects\\MatchMaking\\Shared.Contracts\\Events\\GameCreatedEvent.cs",
               "RelativeDocumentMoniker": "..\\Shared.Contracts\\Events\\GameCreatedEvent.cs",
@@ -40,7 +95,8 @@
               "RelativeToolTip": "..\\Shared.Contracts\\Events\\GameCreatedEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T11:18:30.908Z"
+              "WhenOpened": "2026-09-04T11:18:30.908Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -50,9 +106,10 @@
               "RelativeDocumentMoniker": "..\\NotificationService\\Dockerfile",
               "ToolTip": "C:\\Projects\\MatchMaking\\NotificationService\\Dockerfile",
               "RelativeToolTip": "..\\NotificationService\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-08-29T12:06:33.963Z"
+              "WhenOpened": "2026-08-29T12:06:33.963Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -62,46 +119,9 @@
               "RelativeDocumentMoniker": "..\\NotificationService\\Program.cs",
               "ToolTip": "C:\\Projects\\MatchMaking\\NotificationService\\Program.cs",
               "RelativeToolTip": "..\\NotificationService\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T16:40:49.6Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NotificationHub.cs",
-              "DocumentMoniker": "C:\\Projects\\MatchMaking\\NotificationService\\Hubs\\NotificationHub.cs",
-              "RelativeDocumentMoniker": "..\\NotificationService\\Hubs\\NotificationHub.cs",
-              "ToolTip": "C:\\Projects\\MatchMaking\\NotificationService\\Hubs\\NotificationHub.cs",
-              "RelativeToolTip": "..\\NotificationService\\Hubs\\NotificationHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T16:40:09.122Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\Program.cs",
-              "RelativeDocumentMoniker": "..\\GameSessionService\\Program.cs",
-              "ToolTip": "C:\\Projects\\MatchMaking\\GameSessionService\\Program.cs",
-              "RelativeToolTip": "..\\GameSessionService\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T17:47:36.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GameService.cs",
-              "DocumentMoniker": "C:\\Projects\\MatchMaking\\GameSessionService\\Services\\GameService.cs",
-              "RelativeDocumentMoniker": "..\\GameSessionService\\Services\\GameService.cs",
-              "ToolTip": "C:\\Projects\\MatchMaking\\GameSessionService\\Services\\GameService.cs",
-              "RelativeToolTip": "..\\GameSessionService\\Services\\GameService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAAB0AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T14:36:48.07Z",
+              "WhenOpened": "2026-08-24T16:40:49.6Z",
               "EditorCaption": ""
             }
           ]
